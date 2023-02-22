@@ -9,8 +9,7 @@ The test code will be run from the root of the repository and the BurstSMS API K
 ```
 REACT_APP_API_KEY=xxx npm start
 ```
-- We're looking for this to be extensible by others, so keep that in mind when considering your approach.
-- You are free to take your time with it though be mindful of keeping it simple and not taking too long. 
+
 
 
 
@@ -32,6 +31,9 @@ REACT_APP_API_KEY=xxx npm start
 
 - You are not required to restore the list of sent messages between sessions. A page refresh can lose all state.
 
+### Advice
+- When you're thinking about your approach, please consider that we want others to be able to easily extend it in the future.
+- You have the freedom to work at your own pace, but please remember to prioritize simplicity and not let the task take too long.
 ### How to submit
 
 Clone this and push to a private github repository and then add @paran01d as a collaborator when completed.
