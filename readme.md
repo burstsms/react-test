@@ -9,8 +9,7 @@ The test code will be run from the root of the repository and the BurstSMS API K
 ```
 REACT_APP_API_KEY=xxx npm start
 ```
-
-- Treat this as a project you would work on at work, we will ask you in the follow-up interview how you would go about extending it to add a small feature. 
+- We're looking for this to be extensible by others, so keep that in mind when considering your approach.
 - You are free to take your time with it though be mindful of keeping it simple and not taking too long. 
 
 
