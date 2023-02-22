@@ -2,16 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Here is a simple test of your understanding of React components, async API calls and state management. You are required to complete the missing parts of this repository such that the page displays a form component on the left for submitting SMS messages and a list of sent messages to the right.
+Here is a test of your understanding of React components, async API calls and state management. You are required to complete the missing parts of this repository such that the page displays a form component on the left for submitting SMS messages and a list of sent messages to the right.
 
 The test code will be run from the root of the repository and the BurstSMS API Key will be provided to you
 
 ```
 REACT_APP_API_KEY=xxx npm start
 ```
-
-
-
 
 ### Criteria
 
