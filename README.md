@@ -1,10 +1,10 @@
-## BurstSMS React Test
+## Kudosity React Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Here is a test of your understanding of React components, async API calls and state management. You are required to complete the missing parts of this repository such that the page displays a form component on the left for submitting SMS messages and a list of sent messages to the right.
 
-The test code will be run from the root of the repository and the BurstSMS API Key will be provided to you
+The test code will be run from the root of the repository and the Kudosity API Key will be provided to you
 
 ```
 REACT_APP_API_KEY=xxx npm start
@@ -16,15 +16,15 @@ REACT_APP_API_KEY=xxx npm start
 
 - The form should validate that the message length is a maximum of 3 SMS worth of text.
 
-- The Sender on the form should be a read-only field with the value of `61481074860` as this is the valid sender enabled for use in the BurstSMS account.
+- The Sender on the form should be a read-only field with the value of `61481074860` as this is the valid sender enabled for use in the Kudosity account.
 
-- a **service.ts** file has been created which needs completion, this is where the implementation of the BurstSMS SMS api call goes. Use the [API docs](https://developer.transmitmessage.com) to submit an SMS from the service. The API key provided to you is passed in as the environment variable `REACT_APP_API_KEY` as shown above.
+- A **service.ts** file has been created which needs completion, this is where the implementation of the Kudosity SMS API call goes. Use the [API docs](https://developer.transmitmessage.com) to submit an SMS from the service. The API key provided to you is passed in as the environment variable `REACT_APP_API_KEY` as shown above.
 
 - Use `fetch` rather than installing any extra npm packages
 
 - Use your own mobile number as the recipient for testing
 
-- **MessageDisplay.tsx** should display a list of messages that have been sent with the following data: Recipient, Message, Number of Messages. These are returned by the BurstSMS API.
+- **MessageDisplay.tsx** should display a list of messages that have been sent with the following data: Recipient, Message, Number of Messages. These are returned by the Kudosity API.
 
 - You are not required to restore the list of sent messages between sessions. A page refresh can lose all state.
 
