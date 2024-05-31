@@ -35,4 +35,4 @@ REACT_APP_API_KEY=xxx npm start
 
 ### How to submit
 
-Clone this and push to a private github repository and then add @paran01d as a collaborator when completed.
+Clone this and push to a private github repository and then add [@bkbooth](https://github.com/bkbooth) as a collaborator when completed.
