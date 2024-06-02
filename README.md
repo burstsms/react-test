@@ -4,10 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Here is a test of your understanding of React components, async API calls and state management. You are required to complete the missing parts of this repository such that the page displays a form component on the left for submitting SMS messages and a list of sent messages to the right.
 
-The test code will be run from the root of the repository and the Kudosity API Key will be provided to you
+The test code will be run from the root of the repository and the Kudosity API key will be provided to you. Copy the _.env_ file to _.env.local_ and update `REACT_APP_API_KEY` with the provided API key.
+
+Intall dependencies and run the app in development mode.
 
 ```
-REACT_APP_API_KEY=xxx npm start
+npm install
+npm start
 ```
 
 ### Criteria

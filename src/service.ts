@@ -1,5 +1,5 @@
-// there's a proxy config in package.json that specifies all unknown requests are proxied to the Kudosity transmitmessage api
-// this means instead of making a call to https://api.transmitmessage.com/v2/sms you would call just /v2/sms
+// The API base URL is configured as an environment variable in the .env file
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL!;
 
 type SendSMSResponse = void;
 
