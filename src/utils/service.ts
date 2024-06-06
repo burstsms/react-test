@@ -1,5 +1,5 @@
 // The API base URL is configured as an environment variable in the .env file
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL!;
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL!;
 
 type SendSMSResponse = void;
 
